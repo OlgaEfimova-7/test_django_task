@@ -1,0 +1,335 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$SCe3xLW1aApNg9UwbVZbEi$iw/c49sXwJQTVplPCbwItIdbUgExe6wNTS4Q12Mjj1A=",
+    "last_login": "2024-08-27T13:41:34.679Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-08-27T13:41:26.003Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "credit.contract",
+  "pk": 1,
+  "fields": {
+    "created": "2024-08-27T13:41:45.634Z"
+  }
+},
+{
+  "model": "credit.contract",
+  "pk": 2,
+  "fields": {
+    "created": "2024-08-27T14:12:30.382Z"
+  }
+},
+{
+  "model": "credit.contract",
+  "pk": 3,
+  "fields": {
+    "created": "2024-08-28T09:09:56.731Z"
+  }
+},
+{
+  "model": "credit.contract",
+  "pk": 4,
+  "fields": {
+    "created": "2024-08-28T09:12:56.959Z"
+  }
+},
+{
+  "model": "credit.contract",
+  "pk": 5,
+  "fields": {
+    "created": "2024-08-28T09:14:24.082Z"
+  }
+},
+{
+  "model": "credit.creditrequest",
+  "pk": 1,
+  "fields": {
+    "created": "2024-08-27T13:41:50.763Z",
+    "contract": 1
+  }
+},
+{
+  "model": "credit.creditrequest",
+  "pk": 2,
+  "fields": {
+    "created": "2024-08-27T14:12:36.875Z",
+    "contract": 2
+  }
+},
+{
+  "model": "credit.creditrequest",
+  "pk": 3,
+  "fields": {
+    "created": "2024-08-28T09:10:03.449Z",
+    "contract": 3
+  }
+},
+{
+  "model": "credit.creditrequest",
+  "pk": 4,
+  "fields": {
+    "created": "2024-08-28T09:13:02.360Z",
+    "contract": 4
+  }
+},
+{
+  "model": "credit.creditrequest",
+  "pk": 5,
+  "fields": {
+    "created": "2024-08-28T09:14:27.477Z",
+    "contract": 5
+  }
+},
+{
+  "model": "credit.producer",
+  "pk": 1,
+  "fields": {
+    "created": "2024-08-27T13:41:56.629Z"
+  }
+},
+{
+  "model": "credit.producer",
+  "pk": 2,
+  "fields": {
+    "created": "2024-08-27T13:42:03.816Z"
+  }
+},
+{
+  "model": "credit.producer",
+  "pk": 3,
+  "fields": {
+    "created": "2024-08-27T14:10:21.173Z"
+  }
+},
+{
+  "model": "credit.producer",
+  "pk": 4,
+  "fields": {
+    "created": "2024-08-28T09:10:15.565Z"
+  }
+},
+{
+  "model": "credit.producer",
+  "pk": 5,
+  "fields": {
+    "created": "2024-08-28T09:13:10.572Z"
+  }
+},
+{
+  "model": "credit.producer",
+  "pk": 6,
+  "fields": {
+    "created": "2024-08-28T09:14:30.904Z"
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 1,
+  "fields": {
+    "created": "2024-08-27T13:42:11.854Z",
+    "credit_request": 1,
+    "producer": 1
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 2,
+  "fields": {
+    "created": "2024-08-27T13:42:15.597Z",
+    "credit_request": 1,
+    "producer": 2
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 3,
+  "fields": {
+    "created": "2024-08-27T13:42:19.589Z",
+    "credit_request": 1,
+    "producer": 1
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 4,
+  "fields": {
+    "created": "2024-08-27T14:10:11.588Z",
+    "credit_request": 1,
+    "producer": 1
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 5,
+  "fields": {
+    "created": "2024-08-27T14:10:40.455Z",
+    "credit_request": 1,
+    "producer": 3
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 6,
+  "fields": {
+    "created": "2024-08-27T14:12:46.758Z",
+    "credit_request": 2,
+    "producer": 1
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 7,
+  "fields": {
+    "created": "2024-08-27T14:12:53.042Z",
+    "credit_request": 2,
+    "producer": 3
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 8,
+  "fields": {
+    "created": "2024-08-28T09:10:29.941Z",
+    "credit_request": 3,
+    "producer": 1
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 9,
+  "fields": {
+    "created": "2024-08-28T09:10:38.663Z",
+    "credit_request": 3,
+    "producer": 4
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 10,
+  "fields": {
+    "created": "2024-08-28T09:10:57.358Z",
+    "credit_request": 3,
+    "producer": 4
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 11,
+  "fields": {
+    "created": "2024-08-28T09:13:23.664Z",
+    "credit_request": 4,
+    "producer": 5
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 12,
+  "fields": {
+    "created": "2024-08-28T09:13:30.328Z",
+    "credit_request": 4,
+    "producer": 1
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 13,
+  "fields": {
+    "created": "2024-08-28T09:13:35.582Z",
+    "credit_request": 4,
+    "producer": 1
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 14,
+  "fields": {
+    "created": "2024-08-28T09:13:41.223Z",
+    "credit_request": 4,
+    "producer": 3
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 15,
+  "fields": {
+    "created": "2024-08-28T09:13:48.537Z",
+    "credit_request": 4,
+    "producer": 5
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 16,
+  "fields": {
+    "created": "2024-08-28T09:14:38.136Z",
+    "credit_request": 5,
+    "producer": 1
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 17,
+  "fields": {
+    "created": "2024-08-28T09:14:43.478Z",
+    "credit_request": 5,
+    "producer": 2
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 18,
+  "fields": {
+    "created": "2024-08-28T09:14:50.142Z",
+    "credit_request": 5,
+    "producer": 3
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 19,
+  "fields": {
+    "created": "2024-08-28T09:14:55.264Z",
+    "credit_request": 5,
+    "producer": 4
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 20,
+  "fields": {
+    "created": "2024-08-28T09:15:01.957Z",
+    "credit_request": 5,
+    "producer": 5
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 21,
+  "fields": {
+    "created": "2024-08-28T09:15:16.153Z",
+    "credit_request": 5,
+    "producer": 6
+  }
+},
+{
+  "model": "credit.product",
+  "pk": 22,
+  "fields": {
+    "created": "2024-08-28T09:16:29.738Z",
+    "credit_request": 5,
+    "producer": 6
+  }
+}
+]
